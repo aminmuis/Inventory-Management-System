@@ -1,0 +1,6 @@
+CREATE TABLE products (
+    product_id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    product_name TEXT NOT NULL,
+    price NUMERIC(12,2) NOT NULL,
+    stock INTEGER NOT NULL
+);
